@@ -1,0 +1,24 @@
+.rodape{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    padding: 20px 0;
+}
+
+
+.card{
+    padding: 20px;
+    width: 22%;
+}
+
+.card-laranja{
+    background-color: #F24726;
+    height: 100%;
+    
+}
+
+.centro {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
