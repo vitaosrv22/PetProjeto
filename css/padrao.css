@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
+body{
+    font-family: 'Ropa Sans';
+}
+
+.bg-site{
+    background-color: #F24726;
+    height: 100px;
+    width: 100%;
+    padding: 50px;
+}
+
+.bg-card{
+    background-color: #1A1A1A;
+    color: white;
+    height: 100px;
+}
+
+.h1{
+}
+
+.h2{
+    color: #F24726;
+}
+
+.h3{
+}
+
+.h4{
+}
+
+p{
+}
+
+.btn-1{
+    background-color: #F24726;
+    color: white;
+    padding: 20px 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    
+}
+
+.btn-1:hover{
+    background-color: #f58634;
+    color: white;
+    padding: 20px 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+.btn-2{
+    background-color: #1A1A1A;
+    color: white;
+    padding: 20px 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    
+}
+
+.btn-2:hover{
+    background-color: #F24726;
+    color: white;
+    padding: 20px 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
