@@ -5,11 +5,11 @@
     padding: 20px 0;
 }
 
-
 .card{
     padding: 20px;
-    width: 22%;
+    width: 100%;
 }
+
 
 .card-laranja{
     background-color: #F24726;
@@ -22,3 +22,11 @@
     width: 50%;
     padding: 10px;
   }
+
+  @media (min-width: 769px)  {
+    .card{
+        padding: 20px;
+        width: 22%;
+    }
+    
+}
