@@ -5,7 +5,7 @@
     padding: 20px 0;
 }
 
-.card{
+.rcard{
     padding: 20px;
     width: 100%;
 }
@@ -24,7 +24,7 @@
   }
 
   @media (min-width: 769px)  {
-    .card{
+    .rcard{
         padding: 20px;
         width: 22%;
     }
