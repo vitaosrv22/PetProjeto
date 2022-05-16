@@ -7,6 +7,6 @@ const formController = require('../controllers/form.controller');
 routes.get('/', homeController.list);
 
 // Formulário
-routes.get('/formulario', formController.list);
+routes.get('/contato', formController.list);
 
 module.exports = routes;
