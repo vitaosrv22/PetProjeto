@@ -8,8 +8,17 @@
 
 .form{
     text-align: center;
-    width: 50%;
+    width:100%;
     margin: auto;
+}
+
+@media (min-width: 769px)  {
+    .form{
+        text-align: center;
+        width: 50%;
+        margin: auto;
+    }
+
 }
 
 .h1-center{
@@ -20,7 +29,6 @@
 
 .form-campo{
     padding: 20px;
-    
 }
 
 .form-campo input, .form-campo textarea{
