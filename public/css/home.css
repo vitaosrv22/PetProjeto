@@ -1,0 +1,286 @@
+.textodesconto {
+    background-color: #F24726;
+    width: 100%;
+    height: 30px;   
+}
+
+.descontoh3 {
+    color: white;
+    text-align: center;
+}
+
+
+.home-navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.home-div-pai {
+    background-color: #1A1A1A;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 150px;   
+    justify-content: space-between;
+}
+
+.home-logotipo {
+    color: white;
+    margin-left: 80px;
+    width: 130px;
+    height: 130px;
+
+}
+
+.home-busca {
+    width: 500px;
+    border-radius: 10.5px;
+    height: 30px;
+}
+
+.textLogin{
+    color: white;
+    display: inline;
+    position: relative;
+    top: -10px;
+    left: 10px;
+}
+
+.textSacola{
+    color: white;
+    display: inline;
+    position: relative;
+    top: -10px;
+    left: 10px;
+    margin-right: 80px;
+}
+
+.home-faixa-laranja {
+    background-color: #F24726;
+    width: 100%;
+    height: 50px;
+    margin-top: 8px;
+}
+
+.home-botoes {
+    background-color: #1A1A1A;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80px;   
+    justify-content: space-evenly;
+}
+
+.home-btnBotao {
+    width: 100px;
+    height: 40px;
+    background-color: #F24726;
+    border: 2px solid #F24726;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+
+.home-banner-carrosel {
+    margin-top: 8px;
+    width: 100%; 
+    height: 300px;
+    background-repeat: no-repeat;
+    background: url("../Imagens/bannerpeteasy.png");
+}
+
+.home-icones{
+    background-color: #1A1A1A;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 75px;   
+    justify-content: space-evenly;
+}
+
+.opcoes-icones {
+    background-color: #1A1A1A;
+    width: 300px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 10.5px;
+    color: white;
+}
+
+.opcoes-icones:hover {
+    border: 1px solid #1A1A1A;
+    background-color: #F24726;
+}
+
+.home-text-icones {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -38px;
+}
+
+.home-imgCartao{
+    margin-top: 17px;
+}
+
+.home-produtos-ofertas{
+    margin-top: 2px;
+    background-color: #1A1A1A;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.home-produto-off{
+    background-color: #F24726;
+    width: 250px;
+    height: 300px;
+    border-radius: 50px;
+}
+
+.home-btnEuQuero {
+    width: 100px;
+    height: 30px;
+    background-color: #1A1A1A;
+    color: white;
+    position: relative;
+    top: 250px;
+    left: 77px;
+    border-radius: 10.5px;
+}
+
+.home-marcas {
+    margin-top: 2px;
+    background-color: #1A1A1A;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-ofertas-email{
+    margin-top: 2px;
+    background-color: #1A1A1A;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.home-off-email{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: #F24726;
+    padding: 70px 50px;
+}
+
+.home-emailCadastrar{
+    width: 300px;
+    height: 20px;
+    margin-left: 5px;
+    border: 1px solid #F24726;
+    border-radius: 10.5px;
+}
+
+.home-btnEmailCadastrar{
+    width: 100px;
+    height: 20px;
+    margin-left: 5px;
+    border: 1px solid #1A1A1A;
+    border-radius: 10.5px;
+    background-color: #1A1A1A;
+    color: #F24726;
+}.home-text-icones {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -38px;
+}
+
+.home-imgCartao{
+    margin-top: 17px;
+}
+
+.home-produtos-ofertas{
+    margin-top: 2px;
+    background-color: #1A1A1A;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.home-produto-off{
+    background-color: #F24726;
+    width: 250px;
+    height: 300px;
+    border-radius: 50px;
+}
+
+.home-btnEuQuero {
+    width: 100px;
+    height: 30px;
+    background-color: #1A1A1A;
+    color: white;
+    position: relative;
+    top: 250px;
+    left: 77px;
+    border-radius: 10.5px;
+}
+
+.home-marcas {
+    margin-top: 2px;
+    background-color: #1A1A1A;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-ofertas-email{
+    margin-top: 2px;
+    background-color: #1A1A1A;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.home-off-email{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: #F24726;
+    padding: 70px 50px;
+}
+
+.home-emailCadastrar{
+    width: 300px;
+    height: 20px;
+    margin-left: 5px;
+    border: 1px solid #F24726;
+    border-radius: 10.5px;
+}
+
+.home-btnEmailCadastrar{
+    width: 100px;
+    height: 20px;
+    margin-left: 5px;
+    border: 1px solid #1A1A1A;
+    border-radius: 10.5px;
+    background-color: #1A1A1A;
+    color: #F24726;
+}
