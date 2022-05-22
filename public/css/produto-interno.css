@@ -1,0 +1,26 @@
+.prod-preco {
+    font-size: 40px;
+}
+
+.prod-info-produto {
+    padding-bottom: 50px;
+}
+
+.btn-prod-comprar{
+    margin: 0 auto;
+}
+  
+@media (min-width: 769px)  {
+    .prod-info-produto {
+        display: flex;
+        width: 100%;
+    }
+    
+    .prod-column{
+        flex: 50%;
+    }
+
+    .prod-preco {
+        font-size: 60px;
+    }
+}

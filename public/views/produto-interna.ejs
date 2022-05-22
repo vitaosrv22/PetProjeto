@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<!-- <%- include('./partials/header') %> -->
+<head>
+    <link rel="stylesheet" href="\css\padrao.css">
+    <link rel="stylesheet" href="\css\produto-interno.css">
+</head>
+<body>
+    <main>
+        <div class="bg-site">
+            <div class="bg-card container">
+                <!-- breadcrumbs -->
+                <div id="breadcrumbsGeral">
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="/">Home</a><span class="bread-seta"> > </span></li>
+                        <li class="breadcrumb-item"><a href="/produtos">Produtos</a><span class="bread-seta"> > </span></li>
+                        <li class="breadcrumb-item">Produto - </li>
+                    </ul>
+                </div>
+                <!-- Informações produto -->
+                <div class="prod-info-produto">
+                    <div class="prod-column">
+                        <img class="img-fluid" src="/img/thumb-prod.jpg" alt="">
+                    </div>
+                    <div class="prod-column">
+                        <div class="prod-nome">
+                            <h1>NOME DO PRODUTO</h1>
+                        </div>
+                        <a class="prod-preco">R$ 24,90</a>
+                        <p>ou 10x de $ 2,49 pagando com Mercado Crédito</p>
+                        <ul>
+                            <li>Caracteristicas do produto</li>
+                            <li>Phasellus posuere lorem vel dapibus fringilla.</li>
+                            <li>Aenean laoreet ex ac dui auctor auctor.</li>
+                            <li>Morbi facilisis ante eu augue pretium, at varius lorem ornare.</li>
+                            <li>Vestibulum vitae leo gravida est molestie aliquam.</li>
+                        </ul>
+                        <button class="btn-1 btn-prod-comprar">COMPRAR AGORA</button>
+                    </div>
+                </div>
+            </div> 
+
+            <div>
+                <div class="bg-card mt-1">
+                    <div class="container py-1">
+                        <h2 class="m-0">Avaliação de quem comprou</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </main>
+
+    <!-- Rodapé -->
+    <%- include('./partials/footer') %>
+
+</body>
+</html>

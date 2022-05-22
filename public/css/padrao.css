@@ -4,6 +4,27 @@ body{
     font-family: 'Ropa Sans';
 }
 
+.container{
+    width: 100%;
+    padding: 0 2em;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+@media (min-width: 769px)  {
+    .container{
+        width: 100%;
+        max-width: 1920px;
+        padding-right: 50px;
+        padding-left: 50px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+}
+
 .bg-site{
     background-color: #F24726;
 }
@@ -76,4 +97,58 @@ p{
 
 .w-100{
     width: 100%;
+}
+
+/* CSS dos breadcrumbs */
+#breadcrumbsGeral ul {
+    background: none;
+    margin-top: 10px;
+}
+
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    list-style: none;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+}
+
+.breadcrumb-item {
+    /* padding-left: 0.5rem; */
+    display: flex;
+}
+
+.bread-seta{
+    padding: 0 0.5rem;
+}
+
+#breadcrumbsGeral ul li a {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+/* Imagens */
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Margin */
+
+.m-0 {
+    margin: none;
+}
+
+.mt-1 {
+    margin-top: 5px;
+}
+
+/* Padding */
+.py-1 {
+    padding-top: 5px;
+    padding-bottom: 5px;
 }

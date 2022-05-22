@@ -14,12 +14,12 @@
 .card-laranja{
     background-color: #F24726;
     height: 100%;
-    
+    border-radius: 10px;
 }
 
 .centro {
     margin: auto;
-    width: 50%;
+    width: 90%;
     padding: 10px;
   }
 
@@ -28,5 +28,6 @@
         padding: 20px;
         width: 22%;
     }
+    
     
 }
